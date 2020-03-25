@@ -13,7 +13,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FDC400;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notebase.HomeScreenFXMLController">
    <children>
-      <Pane layoutY="58.0" prefHeight="342.0" prefWidth="600.0">
+      <Pane layoutY="53.0" prefHeight="342.0" prefWidth="600.0">
          <children>
             <Pane layoutX="178.0" layoutY="25.0" prefHeight="300.0" prefWidth="245.0" style="-fx-background-color: white;">
                <children>
@@ -53,18 +53,18 @@
                      </font>
                   </Hyperlink>
                   <Hyperlink layoutX="49.0" layoutY="276.0" text="Already Have an Account?" textFill="RED" />
+                  <ImageView fitHeight="127.0" fitWidth="121.0" layoutX="185.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/pencil-clipart.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="66.0" fitWidth="121.0" layoutX="-42.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/eraser-clipart.png" />
+                     </image>
+                  </ImageView>
                </children>
             </Pane>
-            <ImageView fitHeight="127.0" fitWidth="121.0" layoutX="403.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/pencil-clipart.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="66.0" fitWidth="121.0" layoutX="379.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/eraser-clipart.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="97.0" fitWidth="38.0" layoutX="190.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/binder-clip-clipart.png" />
