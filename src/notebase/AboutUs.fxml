@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="AnchorPane" prefHeight="441.0" prefWidth="645.0" style="-fx-background-color: #f5f9e9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notebase.HomeScreenFXMLController">
+   <children>
+      <HBox prefHeight="53.0" prefWidth="645.0" style="-fx-background-color: #515751;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="147.0" style="-fx-background-color: #515751;" text="NoteBase" textFill="#fdc400">
+               <font>
+                  <Font name="Eras Medium ITC" size="24.0" />
+               </font>
+            </Button>
+            <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="53.0" prefWidth="441.0">
+               <children>
+                  <Button mnemonicParsing="false" opacity="0.8" prefHeight="52.0" prefWidth="108.0" style="-fx-background-color: #515751;" text="ABOUT US" textFill="#fdc400">
+                     <font>
+                        <Font name="Eras Medium ITC" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" opacity="0.8" prefHeight="52.0" prefWidth="108.0" style="-fx-background-color: #515751;" text="MENU" textFill="#fdc400">
+                     <font>
+                        <Font name="Eras Medium ITC" size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Label prefHeight="53.0" prefWidth="65.0" text="USER27" textAlignment="CENTER" textFill="#f5f9e9">
+               <font>
+                  <Font name="Eras Medium ITC" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="42.0" layoutY="78.0" prefHeight="149.0" prefWidth="561.0">
+         <children>
+            <ImageView fitHeight="151.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/coffee-clipart.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="149.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/coffee-clipart.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="149.0" fitWidth="170.0" layoutX="194.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/coffee-clipart.png" />
+               </image>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </HBox>
+      <Label layoutX="60.0" layoutY="215.0" text="Renzo Delos Santos" textFill="#515751">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="215.0" text="Ivan Tan" textFill="#515751">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="215.0" text="Daphne Sta. Maria" textFill="#515751">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextFlow layoutX="63.0" layoutY="271.0" prefHeight="87.0" prefWidth="521.0" textAlignment="CENTER">
+         <children>
+            <Text fill="#515751" strokeType="OUTSIDE" strokeWidth="0.0" text="Because JavaFX is trying to provide reasonable defaults. If there was no defaulted minimum size for an empty button, when you resized your scene smaller, some of the buttons would just disappear and the user would not be able to click on them - which would be a very bad user experience. So the minimum size defaults to about 1em, plus some padding (e.g. just larger than a character), even though no text is set on the button. However, it is just a default set by the Java" wrappingWidth="522.298828125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+   </children>
+</AnchorPane>

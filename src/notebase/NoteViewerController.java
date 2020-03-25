@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package notebase;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Daphne
  */
-public class NoteDisplayController implements Initializable {
+public class NoteViewerController implements Initializable {
 
     /**
      * Initializes the controller class.
